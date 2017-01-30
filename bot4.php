@@ -81,7 +81,14 @@
 	 //$reply = $cb->statuses_update("status= Hi, " . "@" . $status->user->screen_name . " This is a borning test tweet." . $r );
 					
 	  
-	
+	// Post stuff - test:
+	// Parameters list here: https://dev.twitter.com/rest/reference/post/statuses/update
+	$params = array(
+	  'status' => '.@N0RTHERNER Test reply?',
+	  'in_reply_to_status_id' => "825936688031506433"
+	  
+	);
+	$reply = $cb->statuses_update($params);
 	
 	//print_r ($data);
 	
