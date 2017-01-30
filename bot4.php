@@ -84,7 +84,7 @@
 	// Post stuff - test:
 	// Parameters list here: https://dev.twitter.com/rest/reference/post/statuses/update
 	$params = array(
-	  'status' => '.@N0RTHERNER Test reply?',
+	  'status' => '@N0RTHERNER Test reply? '.$r,
 	  'in_reply_to_status_id' => "825936688031506433"
 	  
 	);
