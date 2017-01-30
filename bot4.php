@@ -5,13 +5,16 @@
 // require codebird
 require_once('codebird.php');
 //echo $test_import;
- 
+
+
+/*
 \Codebird\Codebird::setConsumerKey("cons key", "cons key secret");
 
 $cb = \Codebird\Codebird::getInstance();
 
 $cb->setToken("access token", "token secret");
-
+*/
+require_once('config.inc');
 
 $r = rand(0,100); // to ensure a diff tweet is posted each time. 
 /*
